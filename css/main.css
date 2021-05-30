@@ -1,0 +1,35 @@
+body, input, button {
+    font-size: 14px;
+    font-family: Roboto, arial, sans-serif;
+    color: #222;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 6px;
+    height: 60px;
+    flex-shrink: 0;
+    box-sizing: border-box;
+}
+
+.left {
+    display: inline-block;
+    padding: 5px;
+    margin: 0 5px;
+    color: #222;
+}
+
+.right {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.left:first-of-type {
+    margin-left: 15px;
+}
+
+.rli {
+    margin: 5px;
+}
